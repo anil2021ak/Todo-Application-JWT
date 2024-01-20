@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": "df12",
+      "firstname": "Karthi",
+      "lastname": "",
+      "birthdate": "",
+      "gender": "",
+      "company": "",
+      "jobExperience": "",
+      "salary": "",
+      "profile": "karthi.jpg"
+    },
+    {
+      "id": "f0d7",
+      "firstname": "Surya",
+      "lastname": "",
+      "birthdate": "",
+      "gender": "",
+      "company": "",
+      "jobExperience": "",
+      "salary": "",
+      "profile": "surya.jpg"
+    },
+    {
+      "id": "0c82",
+      "firstname": "Mahesh",
+      "lastname": "",
+      "birthdate": "",
+      "gender": "",
+      "company": "",
+      "jobExperience": "",
+      "salary": "",
+      "profile": "Mahesh-Babu.jpg"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,25 @@
+
+<div class="parent">
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			 <div class="signup">
+				
+			</div>  
+
+			<div class="login">
+				<form>
+					<label  class="clicklab" for="chk" aria-hidden="true">Click Me😎</label>
+					
+					<label for="chk" aria-hidden="true">Login</label>
+					<!--login: chetan@gmail.com -->
+					<input class="form-control" type="email" [(ngModel)]="loginObj.EmailId" name="EmailId" placeholder="Email" required="">
+					<!--Password:  admin -->
+					<input class="form-control" type="password" [(ngModel)]="loginObj.Password" name="Password" placeholder="Password" required="">
+					<button (click) = "onLogin()">Login</button>
+				</form>
+			</div>
+	</div>
+
+</div>
+	
